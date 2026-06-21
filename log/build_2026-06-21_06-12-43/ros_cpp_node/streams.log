@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/azureuser/robot_learn/ros2_learn/node -DCMAKE_INSTALL_PREFIX=/home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node
+[0.064s] -- The C compiler identification is GNU 13.3.0
+[0.118s] -- The CXX compiler identification is GNU 13.3.0
+[0.134s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.229s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.333s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.344s] -- Detecting CXX compile features
+[0.344s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.501s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.631s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.692s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.713s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.869s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.874s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.972s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.993s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.016s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.199s] -- Configuring done (1.2s)
+[1.210s] -- Generating done (0.0s)
+[1.214s] -- Build files have been written to: /home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node
+[1.224s] Invoked command in '/home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/azureuser/robot_learn/ros2_learn/node -DCMAKE_INSTALL_PREFIX=/home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node
+[1.225s] Invoking command in '/home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node -- -j4 -l4
+[1.279s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_cpp_node.dir/src/ros2_cpp_node.cpp.o[0m
+[3.741s] [100%] [32m[1mLinking CXX executable ros_cpp_node[0m
+[3.840s] [100%] Built target ros_cpp_node
+[3.851s] Invoked command in '/home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node -- -j4 -l4
+[3.861s] Invoking command in '/home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node
+[3.869s] -- Install configuration: ""
+[3.869s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/lib/ros_cpp_node/ros_cpp_node
+[3.869s] -- Set non-toolchain portion of runtime path of "/home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/lib/ros_cpp_node/ros_cpp_node" to ""
+[3.870s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ament_index/resource_index/package_run_dependencies/ros_cpp_node
+[3.870s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ament_index/resource_index/parent_prefix_path/ros_cpp_node
+[3.870s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/environment/ament_prefix_path.sh
+[3.870s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/environment/ament_prefix_path.dsv
+[3.870s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/environment/path.sh
+[3.871s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/environment/path.dsv
+[3.871s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/local_setup.bash
+[3.871s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/local_setup.sh
+[3.871s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/local_setup.zsh
+[3.872s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/local_setup.dsv
+[3.872s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/package.dsv
+[3.872s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ament_index/resource_index/packages/ros_cpp_node
+[3.872s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/cmake/ros_cpp_nodeConfig.cmake
+[3.872s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/cmake/ros_cpp_nodeConfig-version.cmake
+[3.873s] -- Installing: /home/azureuser/robot_learn/ros2_learn/install/ros_cpp_node/share/ros_cpp_node/package.xml
+[3.875s] Invoked command in '/home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/azureuser/robot_learn/ros2_learn/build/ros_cpp_node
