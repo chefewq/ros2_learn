@@ -8,5 +8,12 @@
   },
   "[h]": {
     "editor.defaultFormatter": "xaver.clang-format"
-  }
+  },
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "python.analysis.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages",
+    "${workspaceFolder}/python_demo/demo_python_pkg",
+    "./node/node_ws/src/demo_python_pkg"
+  ],
+  "python-envs.defaultEnvManager": "ms-python.python:system"
 }
